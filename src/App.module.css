@@ -11,29 +11,4 @@
 
 }
 
-.header {
-  grid-area: header;
-  background-color: #481ef0;
-}
 
-.header img {
-  width: 550px;
-  margin-top: -50px;
-}
-
-.sidebar {
-  grid-area: sidebar;
-  background-color: #481ef0;
-  color: #fff;
-  font-size: 20px;
-  font-weight: 600;
-  padding: 10px 20px;
-}
-
-.content {
-  grid-row: content;
-}
-
-.heroPhoto img{
-  width: 100%;
-}

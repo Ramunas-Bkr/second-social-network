@@ -1,6 +1,6 @@
 import React from 'react';
-import classes from '../App.module.css';
-import logo from '../img/Logo.svg'
+import classes from './Header.module.css';
+import logo from '../../img/Logo.svg'
 
 const Header = () => {
     return (
