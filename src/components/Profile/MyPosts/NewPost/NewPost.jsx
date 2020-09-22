@@ -5,7 +5,10 @@ const NewPost = () => {
     return (
         <div>
             <h2>New Post</h2>
-            <textarea />
+            <textarea placeholder="Enter your post" />
+            <div>
+                <button className={classes.button}>Post</button>
+            </div>
         </div>
     )
 }
