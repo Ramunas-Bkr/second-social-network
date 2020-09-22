@@ -4,10 +4,10 @@ import classes from './Navbar.module.css';
 const Navbar = () => {
     return (
         <nav className={classes.sidebar}>
-            <div>
+            <div className={classes.active}>
                 Profile
             </div>
-            <div className={classes.active}>
+            <div>
                 Messages
             </div>
             <div>

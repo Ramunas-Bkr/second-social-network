@@ -7,7 +7,7 @@ const NewPost = () => {
             <h2>New Post</h2>
             <textarea placeholder="Enter your post" />
             <div>
-                <button className={classes.button}>Post</button>
+                <button className={classes.button}>Add Post</button>
             </div>
         </div>
     )
