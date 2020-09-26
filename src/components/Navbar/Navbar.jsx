@@ -4,20 +4,20 @@ import classes from './Navbar.module.css';
 const Navbar = () => {
     return (
         <nav className={classes.sidebar}>
-            <div className={classes.active}>
-                Profile
+            <div className={`${classes.link} ${classes.active}`}>
+                <a href='/profile'> Profile </a>
             </div>
-            <div>
-                Messages
+            <div className={classes.link}>
+                <a href='/dialogs'> Messages </a>
             </div>
-            <div>
-                News
+            <div className={classes.link}>
+                <a href='/news'>News</a>
             </div>
-            <div>
-                Music
+            <div className={classes.link}>
+                <a href='/music'>Music</a>
             </div>
-            <div>
-                Settings
+            <div className={classes.link}>
+                <a href='/settings'>Settings</a>
             </div>
         </nav>
     )
