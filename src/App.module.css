@@ -9,7 +9,8 @@
   grid-template-rows: 100px 1fr 50px;
   grid-template-columns: 2fr 10fr;
   grid-gap: 10px;
-
 }
 
-
+.content {
+  grid-area: content;
+}

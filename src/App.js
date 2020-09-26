@@ -1,5 +1,6 @@
 import React from 'react';
 import classes from './App.module.css';
+import Dialogs from './components/Dialogs/Dialogs';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Navbar from './components/Navbar/Navbar';
@@ -10,7 +11,10 @@ function App() {
     <div className={classes.appWrapper}>
       <Header />
       <Navbar />
-      <Profile />
+      <div className={classes.content}>
+        <Profile />
+        {/* <Dialogs /> */}
+      </div>
       <Footer />
     </div>
   );
