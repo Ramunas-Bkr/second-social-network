@@ -1,0 +1,49 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+}
+
+.user {
+    margin-top: 10px;
+}
+
+.avatar {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.avatar img {
+    max-width: auto;
+    max-height: 100%;
+}
+
+.user p {
+    display: inline-block;
+    width: 65%;
+    vertical-align:top;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+.message {
+    border: 2px solid #481ef0;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.message p {
+    font-size: 18px;
+    padding: 0 20px;
+    vertical-align: top;
+}
+
+.active p {
+    color: #481ef0;
+    font-weight: 900;
+    opacity: 0.5;
+    text-shadow: 4px 3px 5px rgba(0, 0, 0, 0.57);
+}

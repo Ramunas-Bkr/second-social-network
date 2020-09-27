@@ -7,7 +7,7 @@
   "sidebar content"
   "footer footer";
   grid-template-rows: 100px 1fr 50px;
-  grid-template-columns: 2fr 10fr;
+  grid-template-columns: 220px 1fr;
   grid-gap: 10px;
 }
 
