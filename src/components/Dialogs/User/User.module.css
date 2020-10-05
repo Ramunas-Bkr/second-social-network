@@ -1,0 +1,35 @@
+.user {
+    margin-top: 10px;
+}
+
+.avatar {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.avatar img {
+    max-width: auto;
+    max-height: 100%;
+}
+
+.user a {
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    width: 65%;
+    vertical-align: top;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 17px;
+    margin-left: 15px;
+}
+
+.active {
+    color: #481ef0;
+    font-weight: 900;
+    opacity: 0.5;
+    text-shadow: 4px 3px 5px rgba(0, 0, 0, 0.57);
+}
