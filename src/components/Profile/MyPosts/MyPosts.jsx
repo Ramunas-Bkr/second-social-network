@@ -9,6 +9,7 @@ const MyPosts = (props) => {
             <NewPost />
             {props.postsData.map(p => (
                 <Post
+                    key={p.id}
                     message={p.message} 
                     likeCount={p.likeCount}
                     lolCount={p.lolCount}

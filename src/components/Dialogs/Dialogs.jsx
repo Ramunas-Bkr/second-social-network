@@ -8,17 +8,18 @@ const Dialogs = (props) => {
     return (
         <div className={classes.dialogs}>
             <div className={classes.users}>
-                {props.usersData.map(u =>
+                {props.messagesState.usersData.map(u =>
                     <User 
-                        id={u.id}
+                        key={u.id}
                         name={u.name}
                         image={u.avatar}
                     />)
                 }
             </div>
             <div className={classes.messages}>
-                {props.messageData.map(m =>
-                    <Message 
+                {props.messagesState.messageData.map(m =>
+                    <Message
+                        key={m.id}    
                         message={m.message}
                     />)
                 }

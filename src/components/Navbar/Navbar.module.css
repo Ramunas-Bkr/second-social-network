@@ -1,6 +1,6 @@
 .sidebar {
   grid-area: sidebar;
-  background-color: #481ef0;  
+  background-color: #481ef0;
 }
 
 .link a {
@@ -11,11 +11,41 @@
   margin: 25px;
 }
 
-.sidebar div {
+.link {
   margin-top: 10px;
 }
 
 .active {
   opacity: 0.5;
   text-shadow: 4px 3px 5px rgba(0, 0, 0, 0.57);
+}
+
+.frends {
+  margin: 100px 10px;
+  text-align: center;
+}
+
+.frend {
+  display: inline-block;
+  width: 60px;
+  padding-right: 10px;
+  vertical-align: top;
+}
+
+.avatar {
+  overflow: hidden;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+.avatar img {
+  width: auto;
+  height: 60px;
+}
+
+.frend p {
+  font-weight: 800;
+  color: #fff;
+  margin-top: 5px;
 }
