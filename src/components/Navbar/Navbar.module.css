@@ -3,6 +3,14 @@
   background-color: #481ef0;
 }
 
+.link:nth-child(1) {
+  margin-top: 30px;
+}
+
+.link {
+  margin-top: 10px;
+}
+
 .link a {
   text-decoration: none;
   color: #fff;
@@ -11,9 +19,6 @@
   margin: 25px;
 }
 
-.link {
-  margin-top: 10px;
-}
 
 .active {
   opacity: 0.5;
@@ -23,6 +28,13 @@
 .frends {
   margin: 100px 10px;
   text-align: center;
+  padding-left: 10px;
+}
+
+.frends h3 {
+  text-align: left;
+  color: #fff;
+  padding-left: 10px;
 }
 
 .frend {

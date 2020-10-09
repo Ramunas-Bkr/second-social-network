@@ -1,11 +1,42 @@
 .message {
+    display: inline-block;
     border: 2px solid #481ef0;
     border-radius: 10px;
-    margin-top: 30px;
+    margin-top: 50px;
+    width: 500px;
+    position: relative;
+}
+
+.frend {
+    float: right;
+}
+
+.imageBlock {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    position: absolute;
+    top: -40px;
+    left: 10px;
+    overflow: hidden;
+}
+
+.frend .imageBlock {
+        left: 410px;
+}
+
+.avatarImage {
+    height: 80px;
+    width: auto;
 }
 
 .message p {
+    display: inline-block;
     font-size: 18px;
-    padding: 0 20px;
+    padding: 0 100px;
     vertical-align: top;
+}
+
+.frend p {
+    float: right;
 }

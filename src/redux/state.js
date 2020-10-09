@@ -10,9 +10,11 @@ let state = {
             { id: 7, name: 'Ron', avatar: 'https://imgix.bustle.com/rehost/2016/9/13/556a0b44-17b5-429c-8954-2dc926bfbc70.jpg' },
         ],
         messageData: [
-            { id: 1, message: 'Kai dėl karantino šalys ėmė užsidarinėti, Domas ir Algirdas grįžo į Palangą manydami, kad tai tebus trumpos atostogos pas tėvus. Tačiau kelios savaitės tuščioje Palangoje jų nuomonę pakeitė.' },
-            { id: 2, message: 'JAV vyriausybė Indianos universitetui skyrė milijoną dolerių, kad šios studentai galėtų studijuoti interneto memus.' },
-            { id: 3, message: 'Džiugu kad dar yra grojančių ir dainuojančių tautiečių... jei kas neturit ir pamatysit, rekomenduoju p.s vinilai dėja tik pas perparduotojus jau' }
+            { id: 1, message: 'Labukas. Ką tu', isOwnerMessage: true, avatar: 'https://avatarfiles.alphacoders.com/115/115909.jpg' },
+            { id: 2, message: 'Laba, nieko visai. O tu kaip?', isOwnerMessage: false, avatar: 'https://i.pinimg.com/736x/28/b9/8f/28b98f7cdce838278d683d3b809c8f1e.jpg' },
+            { id: 3, message: 'Puse velnio', isOwnerMessage: true, avatar: 'https://avatarfiles.alphacoders.com/115/115909.jpg'},
+            { id: 4, message: 'Ka vakare?', isOwnerMessage: true, avatar: 'https://avatarfiles.alphacoders.com/115/115909.jpg' },
+            { id: 5, message: 'Tai susitinkam', isOwnerMessage: false, avatar: 'https://i.pinimg.com/736x/28/b9/8f/28b98f7cdce838278d683d3b809c8f1e.jpg' },
         ]
     },
     profilePage: {

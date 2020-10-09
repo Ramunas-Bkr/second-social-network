@@ -5,22 +5,25 @@ import classes from './Navbar.module.css';
 const Navbar = (props) => {
     return (
         <nav className={classes.sidebar}>
-            <div className={classes.link}>
-                <NavLink to='/profile' activeClassName={classes.active}> Profile </NavLink>
-            </div>
-            <div className={classes.link}>
-                <NavLink to='/dialogs' activeClassName={classes.active}> Messages </NavLink>
-            </div>
-            <div className={classes.link}>
-                <NavLink to='/news' activeClassName={classes.active}>News</NavLink>
-            </div>
-            <div className={classes.link}>
-                <NavLink to='/music' activeClassName={classes.active}>Music</NavLink>
-            </div>
-            <div className={classes.link}>
-                <NavLink to='/settings' activeClassName={classes.active}>Settings</NavLink>
-            </div>
+            <div className={classes.links}>
+                <div className={classes.link}>
+                    <NavLink to='/profile' activeClassName={classes.active}> Profile </NavLink>
+                </div>
+                <div className={classes.link}>
+                    <NavLink to='/dialogs' activeClassName={classes.active}> Messages </NavLink>
+                </div>
+                <div className={classes.link}>
+                    <NavLink to='/news' activeClassName={classes.active}>News</NavLink>
+                </div>
+                <div className={classes.link}>
+                    <NavLink to='/music' activeClassName={classes.active}>Music</NavLink>
+                </div>
+                <div className={classes.link}>
+                    <NavLink to='/settings' activeClassName={classes.active}>Settings</NavLink>
+                    </div>
+                </div>
             <div className={classes.frends}>
+                <h3>Frends</h3>
                 {props.navbarState.frends.map(f =>
                     <div key={f.id} className={classes.frend}>
                         <div className={classes.avatar}>

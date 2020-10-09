@@ -13,6 +13,7 @@ const Dialogs = (props) => {
                         key={u.id}
                         name={u.name}
                         image={u.avatar}
+                        id={u.id}
                     />)
                 }
             </div>
@@ -21,6 +22,8 @@ const Dialogs = (props) => {
                     <Message
                         key={m.id}    
                         message={m.message}
+                        isOwnerMessage={m.isOwnerMessage}
+                        image={m.avatar}
                     />)
                 }
             </div>
