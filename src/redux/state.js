@@ -11,7 +11,7 @@ let state = {
         ],
         messageData: [
             { id: 1, message: 'Labukas. Ką tu', isOwnerMessage: true, avatar: 'https://avatarfiles.alphacoders.com/115/115909.jpg' },
-            { id: 2, message: 'Laba, nieko visai. O tu kaip?', isOwnerMessage: false, avatar: 'https://i.pinimg.com/736x/28/b9/8f/28b98f7cdce838278d683d3b809c8f1e.jpg' },
+            { id: 2, message: 'Laba, nieko visai. O tu kaip? Laba, nieko visai. O tu kaip? Laba, nieko visai. O tu kaip? Laba, nieko visai. O tu kaip?', isOwnerMessage: false, avatar: 'https://i.pinimg.com/736x/28/b9/8f/28b98f7cdce838278d683d3b809c8f1e.jpg' },
             { id: 3, message: 'Puse velnio', isOwnerMessage: true, avatar: 'https://avatarfiles.alphacoders.com/115/115909.jpg'},
             { id: 4, message: 'Ka vakare?', isOwnerMessage: true, avatar: 'https://avatarfiles.alphacoders.com/115/115909.jpg' },
             { id: 5, message: 'Tai susitinkam', isOwnerMessage: false, avatar: 'https://i.pinimg.com/736x/28/b9/8f/28b98f7cdce838278d683d3b809c8f1e.jpg' },

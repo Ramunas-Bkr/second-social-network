@@ -22,7 +22,7 @@
 }
 
 .frend .imageBlock {
-        left: 410px;
+    left: 410px;
 }
 
 .avatarImage {
@@ -34,9 +34,12 @@
     display: inline-block;
     font-size: 18px;
     padding: 0 100px;
+    padding-right: 10px;
     vertical-align: top;
 }
 
 .frend p {
     float: right;
+    padding-right: 100px;
+    padding-left: 10px;
 }
