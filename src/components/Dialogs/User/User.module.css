@@ -1,5 +1,6 @@
 .user {
     margin-top: 10px;
+    grid-area: users;
 }
 
 .avatar {

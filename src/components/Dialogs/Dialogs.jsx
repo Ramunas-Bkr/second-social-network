@@ -1,4 +1,5 @@
 import React from 'react';
+import AddMessage from './AddMessage/AddMessage';
 import classes from './Dialogs.module.css';
 import Message from './Message/Message';
 import User from './User/User';
@@ -17,6 +18,7 @@ const Dialogs = (props) => {
                     />)
                 }
             </div>
+            <div>
             <div className={classes.messages}>
                 {props.messagesState.messageData.map(m =>
                     <Message
@@ -26,6 +28,8 @@ const Dialogs = (props) => {
                         image={m.avatar}
                     />)
                 }
+            </div>
+                <AddMessage />
             </div>
         </div>
     )
