@@ -6,7 +6,7 @@ const MyPosts = (props) => {
 
     return (
         <div>
-            <NewPost />
+            <NewPost addPost={props.addPost} />
             {props.postsData.map(p => (
                 <Post
                     key={p.id}

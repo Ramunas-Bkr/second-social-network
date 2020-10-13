@@ -1,13 +1,14 @@
 import React from 'react'
 import classes from './NewPost.module.css'
 
-const NewPost = () => {
+const NewPost = (props) => {
 
     let addElement = React.createRef()
 
-    const addAlert = () => {
+    const addPost = () => {
+        debugger
         let text = addElement.current.value
-        alert(text)
+        props.addPost(text)
     }
 
     return (
@@ -15,7 +16,7 @@ const NewPost = () => {
             <h2>New Post</h2>
             <textarea ref={addElement} placeholder="Enter your post" />
             <div>
-                <button onClick={addAlert} className={classes.button}>Add Post</button>
+                <button onClick={addPost} className={classes.button}>Add Post</button>
             </div>
         </div>
     )
